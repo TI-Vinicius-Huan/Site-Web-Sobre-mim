@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: green;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+        width: 90px;/altura/
+        height: 90px;/largura/
+        border: solid white;/bordas/
+        border-radius: 50px;
+}
+
+footer a{/alinhar o texto debaixo da imagem de forma centralizada/
+   text-align: center; 
+}
+
+footer{/Para pode deixar a imagem centralizada, imagem de rodapé da pagina/
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    padding: 0px 50px;
+}
+
+footer b{
+    text-align:center;
+}

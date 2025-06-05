@@ -1,0 +1,36 @@
+body{
+    color:white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-item {
+    text-align: center;
+    
+}
+
+.contact-item img {
+    display: block; /* Garante que o texto fique abaixo da imagem */
+    margin: 0 auto;
+    width: 150px; /* Aumentado para 150px */
+    height: auto;
+    border-radius: 50px;
+}
+
+.contact-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color:white;
+}
+
+footer :hover{
+    color: green;
+
+}
